@@ -1,9 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+
+.main-head{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-family: 'Abril Fatface';
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
 #color{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
 }
-li{
-    
+button{
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 10px 5px 5px 10px;
+    cursor: pointer;
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+
+.green{
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+.red{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.blue{
+    background-color: rgb(0, 17, 255);
+    color: rgb(255, 255, 255);
+}
+.purple{
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer{
+    position: fixed;
+    margin-top: 10px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(27, 22, 22);
+    color: white;
+    text-align: center;
+    font-family: 'Black Ops One';
+    font-size: 25px;
+}
+a{
+    color: #fdfdfd;
+    text-decoration: none;
+}
+a:hover{
+    color: #bdaf37;
+    text-decoration: none;
+}
+
+body{
+    background-color: gold;
 }
