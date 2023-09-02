@@ -12,11 +12,12 @@
     margin-bottom: 10px;
     font-family: 'Abril Fatface';
     font-size: xx-large;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 146, 3);
     letter-spacing: 2px;
 }
 #color{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
@@ -78,6 +79,5 @@ a:hover{
     text-decoration: none;
 }
 
-body{
-    background-color: gold;
-}
+
+
