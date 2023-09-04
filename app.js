@@ -1,47 +1,16 @@
 const display = document.getElementById("color")
-const color = ["Green", "Red", "Blue", "Purple"];
+const color = ["Green", "Red", "Blue", "Purple","Pink","Black","Brown","Yellow","Orange","Silver"];
 const back = document.querySelector("body")
 // console.log(`${color}`);
-display.innerHTML += `<li><button onclick="green()" class="green">${color.slice(0, 1)}</button></li>`
-display.innerHTML += `<li><button onclick="red()" class="red">${color.slice(1, 2)}</button></li>`
-display.innerHTML += `<li><button onclick="blue()" class="blue">${color.slice(2, 3)}</button></li>`
-display.innerHTML += `<li><button onclick="purple()" class="purple">${color.slice(3, 4)}</button></li>`
 
-function green(){
-    switch (back) {
-        case back.style.backgroundColor == "white":
-
-            break;
-        case back.style.backgroundColor = "green":
-            break;
-    }
+for (let i=0; i<color.length;i++){
+    display.innerHTML += `<button onclick="colorChanger(${i})" class="green">${color[i]}</button>`
 }
-function red(){
-    switch (back) {
-        case back.style.backgroundColor == "green":
 
-            break;
-        case back.style.backgroundColor = "red":
-            break;
-    }
+function colorChanger(i){
+    back.style.backgroundColor=`${color[i]}`
 }
-function blue(){
-    switch (back) {
-        case back.style.backgroundColor == "red":
 
-            break;
-        case back.style.backgroundColor = "blue":
-            break;
-    }
-}
-function purple(){
-    switch (back) {
-        case back.style.backgroundColor == "blue":
 
-            break;
-        case back.style.backgroundColor = "purple":
-            break;
-    }
-}
 
 

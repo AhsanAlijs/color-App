@@ -14,18 +14,18 @@
     font-size: xx-large;
     color: rgb(255, 146, 3);
     letter-spacing: 2px;
+    background-color: black;
 }
 #color{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 button{
     margin-top: 30px;
     padding: 10px 20px 10px 20px;
-    width: 100%;
     border: 3px solid black;
     border-radius: 10px 5px 5px 10px;
     cursor: pointer;
@@ -33,24 +33,10 @@ button{
     font-size: 20px;
     font-weight: bolder;
     letter-spacing: 2px;
+    background-color: lightyellow;
+    margin-bottom: 30px;
+    align-items: center;
 
-}
-
-.green{
-    background-color: green;
-    color: rgb(255, 255, 255);
-}
-.red{
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-}
-.blue{
-    background-color: rgb(0, 17, 255);
-    color: rgb(255, 255, 255);
-}
-.purple{
-    background-color: purple;
-    color: rgb(255, 255, 255);
 }
 a{
     color: black;
